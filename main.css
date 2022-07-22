@@ -129,8 +129,9 @@ p {
     background-color: #eb4034;
     width: 100%;
     height: 30vh;
-    margin-top: 200px;
+    margin-top: 300px;
     margin-bottom: 100px;
+    position: relative;
 }
 
 .profile-card {
