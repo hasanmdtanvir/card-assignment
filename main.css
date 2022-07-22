@@ -1,0 +1,186 @@
+/* common style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* common style end */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-area {
+    height: 100vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* text-align: center; */
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+
+.content-area h1,
+p {
+    text-align: center;
+}
+
+.content-area h1 {
+    font-size: 35px;
+}
+
+.content-area p {
+    font-size: 20px;
+    color: rgb(83, 82, 82);
+}
+
+.content-area span {
+    color: black;
+    font-weight: bold;
+}
+
+.content-area .fa-heart {
+    color: #eb4034;
+}
+
+.card-area {
+    margin-top: 100px;
+    width: 100%;
+    /* border: 2px solid green; */
+    /* padding-left: 5%; */
+}
+
+.card-body {
+    width: calc(90% / 3);
+    /* height: 600px; */
+    /* border: 2px solid red; */
+    display: inline-block;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    vertical-align: top;
+    margin-left: 2.2%;
+}
+
+.card-banner {
+    position: relative;
+}
+
+.card-banner img {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #eb4034;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+}
+
+.card-banner .date {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: inline-block;
+    background-color: #eb4034;
+}
+
+.date p {
+    position: relative;
+    top: 10%;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-details {
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.card-details h2 {
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.card-details h4 {
+    line-height: 40px;
+    color: #eb4034;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.card-details p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 30px;
+    color: gray;
+}
+
+/* profile card  */
+.profile-area {
+    background-color: #eb4034;
+    width: 100%;
+    height: 30vh;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.profile-card {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.profile-card-body {
+    width: calc(90% / 3);
+    /* height: 300px; */
+    background-color: white;
+    /* border: 2px solid red; */
+    display: inline-block;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    vertical-align: top;
+    margin-left: 2.2%;
+    position: relative;
+    top: -150px;
+    text-align: center;
+}
+
+.profile-card-body img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #eb4034;
+    position: relative;
+    top: 30px;
+    margin-bottom: 30px;
+}
+
+.profile-card-body p {
+    color: #eb4034;
+    font-weight: 600;
+}
+
+.fa-instagram,
+.fa-github,
+.fa-linkedin,
+.fa-twitter {
+    color: #eb4034;
+    font-size: 25px;
+}
+
+.social-icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icon a {
+    margin-right: 5px;
+}
